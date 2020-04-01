@@ -1,9 +1,63 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
   <head>
+    <meta charset="utf-8" />
     <title>Mint Login</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
+    <header>
+      <div id="signInContainer">
+        <div id="signInText">
+          <p>Already have an Intuit accout?</p>
+          <a href="#">I forgot my User ID or Password</a>
+        </div>
+        <button id="signInButton" class="button">
+          <img src="imgs/lock.png" class="lock" />
+          Sign In
+        </button>
+      </div>
+    </header>
+    <div id="imgWrapper">
+      <img src="imgs/logo.png" alt="logo" class="logo" />
+    </div>
+    <div id="formWrapper">
+      <form>
+        <div id="topTextWrapper">
+          <h1>Create an Intuit account</h1>
+          <p id="oneAccount">
+            One account for everything Intuit, including Mint.
+          </p>
+          <a href="#" id="learnMore">Learn more</a>
+        </div>
+        <p class="formLabels" id="emailAddress">Email Address</p>
+        <input type="text" />
+        <p class="formLabels">Phone (recommended)</p>
+        <input type="text" />
+        <p id="standardCall">
+          Standard call, messaging or data rates may apply.
+        </p>
+        <p class="formLabels">Password</p>
+        <input type="text" />
+        <div>
+          <button id="createAccountButton" class="button">
+            <img src="imgs/lock.png" id="lockCreate" class="lock" />Create
+            Account
+          </button>
+        </div>
+        <div id="bottomText">
+          <p class="bottomForm">By clicking Create account, you agree to our</p>
+          <p class="bottomForm">
+            <a href="#" class="bottomLink">Terms</a>and have read and
+            acknowledge our<a href="#" class="bottomLink">Privacy</a>
+          </p>
+          <a href="#" class="bottomLink">Statement.</a>
+        </div>
+      </form>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>

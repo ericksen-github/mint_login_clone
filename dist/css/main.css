@@ -1,0 +1,114 @@
+body {
+  background-color: #eceef1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  background-color: #007fc4;
+  border-radius: 3px;
+  border: none;
+  color: #ffffff;
+  font-family: Arial;
+}
+
+.lock {
+  height: 15px;
+  vertical-align: middle;
+}
+
+a {
+  color: rgb(61, 112, 252);
+  text-decoration: none;
+}
+
+#imgWrapper {
+  margin-top: -100px;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+}
+
+#formWrapper {
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  padding: 30px;
+  margin-top: -150px;
+  margin-bottom: 50px;
+  color: rgb(65, 65, 65);
+  background-color: white;
+  border: 1px solid #c7c7c7;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 100;
+  margin: 20px;
+}
+
+#oneAccount {
+  margin-top: 25px;
+  margin-bottom: 8px;
+}
+
+#learnMore {
+  font-size: 15px;
+}
+
+.formLabels {
+  margin: 35px 0 12px 0;
+  text-align: left;
+}
+
+input {
+  width: 380px;
+  height: 32px;
+  font-size: 23px;
+  border-width: 1px;
+  border-color: #cccccc;
+  color: #000000;
+  border-style: solid;
+  border-radius: 3px;
+}
+
+#standardCall {
+  font-size: 10px;
+  margin-top: 7px;
+  text-align: left;
+}
+
+#createAccountButton {
+  width: 380px;
+  font-size: 20px;
+  padding: 12px 0 12px 0;
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+#lockCreate {
+  margin-right: 10px;
+}
+
+#bottomText {
+  margin: 30px 0 15px 0;
+}
+
+.bottomForm {
+  font-style: italic;
+  font-size: 15px;
+  color: rgb(136, 136, 136);
+  margin: 7px 0 7px 0;
+}
+
+.bottomLink {
+  font-style: italic;
+  font-size: 15px;
+}
